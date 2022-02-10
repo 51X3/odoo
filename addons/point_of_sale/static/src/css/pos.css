@@ -333,8 +333,8 @@ td {
 /*  a) The left part of the top-bar */
 
 .pos .pos-branding{
-    min-width: 503px;
-    max-width: 503px;
+    min-width: 400px;
+    max-width: 400px;
     flex-grow: 1;
     height:100%;
     margin:0;
@@ -375,7 +375,7 @@ td {
     overflow-x: auto;
 }
 .pos .pos-rightheader > * {
-    border-right: 1px solid #875A7B;
+    border-right: 1px solid #3fb9eb;
 }
 
 .pos .status-buttons-portal {
