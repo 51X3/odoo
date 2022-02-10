@@ -326,7 +326,7 @@ td {
     margin:0;
     padding:0;
     color: gray;
-    background: #875A7B;
+    background: #3fb9eb;
     display: flex;
 }
 
@@ -346,7 +346,7 @@ td {
     justify-content: space-between;
 }
 .pos .pos-logo {
-    height: 35px;
+	width: 84px;
     margin-left: 10px;
     margin-top: 5px;
     vertical-align:middle;
@@ -3311,11 +3311,11 @@ td {
 }
 
 .ticket-button.highlight {
-    background: rgb(104,69,95);
+    background: #292f36;
 }
 
 .ticket-button:hover {
-    background: rgb(104,69,95);
+    background: #292f36;
     cursor: pointer;
 }
 
@@ -3357,7 +3357,7 @@ td {
 }
 
 .cash-move-button:hover {
-    background: rgb(104,69,95);
+    background: #292f36;
     cursor: pointer;
 }
 
@@ -3552,7 +3552,7 @@ td {
 }
 
 .pos .pos-topheader .status-buttons > div:hover {
-    background: rgb(104,69,95);
+    background: #292f36;
 }
 
 @media screen and (max-width: 768px) {
