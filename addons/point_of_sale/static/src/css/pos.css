@@ -1370,6 +1370,12 @@ td {
     flex-grow: 1;
 }
 
+.screen .top-content .top-content-search-right {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
 .screen .main-content{
     display: flex;
     flex-grow: 1;
