@@ -49,23 +49,6 @@
                             </table>
                         </div>
                     </div>
-                    <div class="section-inventory" t-if="productInfo.warehouses.length > 0">
-                        <div class="section-title">
-                            <span>Inventory <t t-if="env.pos.pos_session.update_stock_at_closing">(as of opening)</t></span>
-                            <div class="section-title-line"></div>
-                        </div>
-                        <div class="section-inventory-body">
-                            <table class="mobile-table">
-                                <t t-foreach="productInfo.warehouses" t-as="warehouse" t-key="warehouse.name">
-                                    <tr>
-                                        <td><span t-esc="warehouse.name" class="table-name"/>:</td>
-                                        <td><t t-esc="warehouse.available_quantity"/> <t t-esc="warehouse.uom"/> available,</td>
-                                        <td><t t-esc="warehouse.forecasted_quantity"/> forecasted</td>
-                                    </tr>
-                                </t>
-                            </table>
-                        </div>
-                    </div>
                     <div class="section-supplier" t-if="productInfo.suppliers.length > 0">
                         <div class="section-title">
                             <span>Replenishment</span>
