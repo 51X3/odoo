@@ -587,7 +587,7 @@ td {
 }
 
 .pos .leftpane .pads {
-    border-top: solid 3px rgb(110, 200, 155);
+    border-top: solid 3px #787878;
 }
 
 .pos .leftpane .pads .subpads {
@@ -886,7 +886,7 @@ td {
 }
 
 .pos .green-border-bottom {
-    border-bottom: solid 3px rgb(110, 200, 155);
+    border-bottom: solid 3px #787878;
 }
 
 .pos .grey-border-bottom {
