@@ -3614,7 +3614,7 @@ td {
 
 .cash-move .input-amount .input-field span.currency {
     position: relative;
-    left: -20px;
+    left: 10px;
 }
 
 .cash-move textarea {
