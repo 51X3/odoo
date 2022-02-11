@@ -31,7 +31,7 @@
                             <span> Save</span>
                         </t>
                     </div>
-                    <div t-if="!state.detailIsShown" class="searchbox-client .top-content-search-right">
+                    <div t-if="!state.detailIsShown" class="searchbox-client top-content-search-right">
                         <input placeholder="Search Customers" size="1" t-on-keyup="updateClientList" />
                         <span class="search-clear-client"></span>
                     </div>
